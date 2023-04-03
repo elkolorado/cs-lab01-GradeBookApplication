@@ -126,7 +126,7 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 	- [x] Make the `BaseGradeBook` class abstract
 		- [x] Add the `abstract` keyword to the `BaseGradeBook` declaration.
 
-- [ ] Add support for weighted GPAs
+- [x] Add support for weighted GPAs
 	- [x] Add `IsWeighted` property to `BaseGradeBook`
 		- [x] Create a new `bool` property named `IsWeighted` in `BaseGradeBook`
 			- This should use the public access modifier.
@@ -157,8 +157,8 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 	- [x] Update `BaseGradeBook.GetGPA`
 		- [x] Add 1 point to GPA when student is `Honors` or `DualEnrolled`
 
-	- [ ] Update `HelpCommand`
-		- [ ] Change where the `HelpCommand` outlines the "create" command to say "Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)."
+	- [x] Update `HelpCommand`
+		- [x] Change where the `HelpCommand` outlines the "create" command to say "Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)."
 
 ## What Now?
 
