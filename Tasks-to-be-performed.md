@@ -101,8 +101,8 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 			- Return D if the input grade is between the top 60 and 80% of the class.
 			- Return F if the grade is below the top 80% of the class.
 
-	- [ ] Override `RankedGradeBook`'s `CalculateStatistics` method
-		- [ ] Short circuit the method if there are less than 5 students.
+	- [x] Override `RankedGradeBook`'s `CalculateStatistics` method
+		- [x] Short circuit the method if there are less than 5 students.
 			- If there are less than 5 students write "Ranked grading requires at least 5 students." to the Console.
 			- If there are 5 or more students call the base class's `CalculateStatistics` method using `base.CalculateStatistics`.
 
