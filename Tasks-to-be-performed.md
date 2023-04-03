@@ -71,12 +71,12 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 			- This should be of type `GradeBookType`.
 			- This should use the `public` access modifier.
 
-	- [ ] Creating the `StandardGradeBook` class
-		- [ ] Create a class `StandardGradeBook` _(Once this change is made the code will not compile until completion of the next task)_
+	- [x] Creating the `StandardGradeBook` class
+		- [x] Create a class `StandardGradeBook` _(Once this change is made the code will not compile until completion of the next task)_
 			- This should be located in the `GradeBooks` directory.
 			- This should use the `GradeBook.GradeBooks` namespace.
 			- This should inherit the `BaseGradeBook` class.
-		- [ ] Create a constructor for `StandardGradeBook`
+		- [x] Create a constructor for `StandardGradeBook`
 			- This should accept a parameter `name` of type `string`.
 			- This should set `Type` to `GradeBookType.Standard`.
 			- This should call the `BaseGradeBook` constructor by putting ` : base(name)` after the constructor declaration. _(This was not covered in the course, it calls the constructor of the inherited class.)_
