@@ -91,8 +91,8 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 			- This should set `Type` to `GradeBookType.Ranked`.
 			- This should call the `BaseGradeBook` constructor by putting ` : base(name)` after the constructor declaration. _(This was not covered in the course, it calls the constructor of the inherited class.)_
 
-	- [ ] Override `RankedGradeBook`'s `GetLetterGrade` method
-		- [ ] Provide the appropriate grades based on how the input grade compares to other students.
+	- [x] Override `RankedGradeBook`'s `GetLetterGrade` method
+		- [x] Provide the appropriate grades based on how the input grade compares to other students.
 			_(One way to solve this is to figure out how many students make up 20%, then loop through all the grades and check how many scored higher than the input average, every N students where N is that 20% value drop a letter grade.)_
 			- If there are less than 5 students throw an `InvalidOperationException`.
 			- Return A if the input grade is in the top 20% of the class.
